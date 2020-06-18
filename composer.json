@@ -1,0 +1,36 @@
+{
+    "name": "LuizHenriqueBK/LaravelRepository",
+    "description": "A simple package to create a make:repository command for Laravel",
+    "keywords": ["laravel", "repository", "eloquent", "model"],
+    "authors": [
+        {
+            "name": "Luiz Henrique BK",
+            "email": "luizhenriquesf@objetus.com.br",
+            "homepage": "http://luizhenriquedigital.com.br",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "license": "MIT",
+    "require": {
+        "php": ">=7",
+        "illuminate/database": "^5.8.32|^6.0|^7.0",
+        "illuminate/support": "^5.8.32|^6.0|^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LuizHenriqueBK\\LaravelRepository\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LuizHenriqueBK\\LaravelRepository\\RepositoryServiceProvider"
+            ],
+            "aliases": {
+                "Repository": "LuizHenriqueBK\\LaravelRepository\\Facade\\Repository"
+            }
+        }
+    }
+}

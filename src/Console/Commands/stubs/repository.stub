@@ -1,0 +1,18 @@
+<?php
+
+namespace DummyNamespace;
+
+use DummyModelNamespace;
+use LuizHenriqueBK\LaravelRepository\Repository;
+
+/**
+ * Class DummyClass.
+ * @package DummyNamespace
+ */
+class DummyClass extends Repository
+{
+    /**
+     * @var $model
+     */
+    protected $model = DummyModel::class;
+}
