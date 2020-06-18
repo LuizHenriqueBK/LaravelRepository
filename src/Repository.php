@@ -15,7 +15,7 @@ abstract class Repository implements RepositoryInterface
     /**
      * @var \Illuminate\Database\Eloquent\Model
      */
-    protected static $model;
+    protected $model;
 
    /**
      * Create a new repository instance.
