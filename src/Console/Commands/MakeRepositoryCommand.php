@@ -67,7 +67,7 @@ class MakeRepositoryCommand extends Command
               ? str_replace('DummyModelNamespace', trim($model, '\\'), $stub)
               : str_replace('DummyModelNamespace', $namespaceModel, $stub);
 
-        return str_replace('DummyModel', $model, $stub);
+        return str_replace('DummyModel', class_basename($model), $stub);
     }
 
     /**
