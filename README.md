@@ -15,5 +15,5 @@ php artisan make:repository NameRepository
 To generate a repository class for a specific model you may specify by defining the `--model`:
 
 ```
-php artisan make:repository NameRepository --model=User
+php artisan make:repository NameRepository --model=Name
 ```
