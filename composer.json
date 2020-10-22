@@ -1,7 +1,10 @@
 {
     "name": "LuizHenriqueBK/LaravelRepository",
     "description": "A simple package to create a make:repository command for Laravel",
+    "version": "1.0",
+    "type": "package",
     "keywords": ["laravel", "repository", "eloquent", "model"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Luiz Henrique BK",
@@ -12,9 +15,8 @@
     ],
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "license": "MIT",
     "require": {
-        "php": ">=7",
+        "php": "^7.2.5",
         "illuminate/database": "^5.8.32|^6.0|^7.0",
         "illuminate/support": "^5.8.32|^6.0|^7.0"
     },
