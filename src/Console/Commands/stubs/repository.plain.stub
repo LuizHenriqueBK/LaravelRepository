@@ -3,7 +3,7 @@
 namespace DummyNamespace;
 
 use Illuminate\Database\Eloquent\Model;
-use LuizHenriqueBK\LaravelRepository\Repository;
+use LuizHenriqueFerreira\LaravelRepository\Repository;
 
 /**
  * Class DummyClass.

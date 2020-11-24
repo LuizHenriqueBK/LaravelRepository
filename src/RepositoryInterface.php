@@ -1,6 +1,6 @@
 <?php
 
-namespace LuizHenriqueBK\LaravelRepository;
+namespace LuizHenriqueFerreira\LaravelRepository;
 
 interface RepositoryInterface
 {   

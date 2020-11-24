@@ -1,5 +1,5 @@
 {
-    "name": "LuizHenriqueBK/LaravelRepository",
+    "name": "luizhenriqueferreira/laravel-repository",
     "description": "A simple package to create a make:repository command for Laravel",
     "version": "1.0",
     "type": "package",
@@ -7,7 +7,7 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Luiz Henrique BK",
+            "name": "Luiz Henrique Ferreira",
             "email": "luizhenriquesf@objetus.com.br",
             "homepage": "http://luizhenriquedigital.com.br",
             "role": "Developer"
@@ -22,16 +22,16 @@
     },
     "autoload": {
         "psr-4": {
-            "LuizHenriqueBK\\LaravelRepository\\": "src/"
+            "LuizHenriqueFerreira\\LaravelRepository\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "LuizHenriqueBK\\LaravelRepository\\RepositoryServiceProvider"
+                "LuizHenriqueFerreira\\LaravelRepository\\RepositoryServiceProvider"
             ],
             "aliases": {
-                "Repository": "LuizHenriqueBK\\LaravelRepository\\Facade\\Repository"
+                "Repository": "LuizHenriqueFerreira\\LaravelRepository\\Facade\\Repository"
             }
         }
     }

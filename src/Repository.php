@@ -1,6 +1,6 @@
 <?php
 
-namespace LuizHenriqueBK\LaravelRepository;
+namespace LuizHenriqueFerreira\LaravelRepository;
 
 use Exception;
 use Illuminate\Support\Arr;
@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\{Builder, Model};
 
 /**
  * Class Repository
- * @package LuizHenriqueBK\LaravelRepository
+ * @package LuizHenriqueFerreira\LaravelRepository
  */
 abstract class Repository implements RepositoryInterface
 {
