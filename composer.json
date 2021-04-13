@@ -1,7 +1,6 @@
 {
     "name": "luizhenriqueferreira/laravel-repository",
     "description": "A simple package to create a make:repository command for Laravel",
-    "version": "1.0",
     "type": "package",
     "keywords": ["laravel", "repository", "eloquent", "model"],
     "license": "MIT",
